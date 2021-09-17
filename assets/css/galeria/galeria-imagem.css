@@ -1,0 +1,46 @@
+.galeria__imagem{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 440px;
+  margin: .5rem .5rem;
+  width: 373px;
+  border-radius: 5px;
+}
+
+.imagem-1{
+  background-image: url('../../img/tambor-de-crioula.jpg');
+}
+.imagem-2{
+  background-image: url('../../img/caranguejada.jpg');
+}
+.imagem-3{
+  background-image: url('../../img/lagoa-do-casso.jpg');
+}
+.imagem-4{
+  background-image: url('../../img/chapada-das-mesas.jpg');
+}
+.imagem-5{
+  background-image: url('../../img/casaroes-rua-do-giz.jpg');
+}
+.imagem-6{
+  background-image: url('../../img/boizinho.png');
+}
+
+@media  screen and (min-width: 0) {
+  .galeria__imagem{
+    height: 540px;
+    margin: .5rem .5rem;
+    width: 510px;
+    border-radius: 5px;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .galeria__imagem{
+    height: 440px;
+    margin: .5rem .5rem;
+    width: 373px;
+    border-radius: 5px;
+  }
+}

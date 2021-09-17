@@ -1,0 +1,13 @@
+.rodape__link{
+  background: #fdfdfd;
+  border-radius: 100%;
+  padding: 10px 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.rodape__link i{
+  color: #a61127;
+  font-size: 20px;
+  margin: 0;
+}

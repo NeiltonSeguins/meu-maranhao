@@ -1,0 +1,23 @@
+.sobre__descricao{
+  text-align: justify;
+  font-size: 20px;
+  width: 50%;
+  padding: 20px;
+  line-height: 2.25rem;
+}
+
+@media  screen and (min-width: 0) {
+  .sobre__descricao{
+    width: auto;
+    font-size: 25px;
+    padding: 0;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .sobre__descricao{
+    width: 50%;
+    font-size: 25px;
+    padding: 0;
+  }
+}

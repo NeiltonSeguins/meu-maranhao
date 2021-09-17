@@ -1,0 +1,7 @@
+.agradecimento{
+  text-align: center;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

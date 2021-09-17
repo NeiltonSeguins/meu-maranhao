@@ -1,0 +1,38 @@
+@media  screen and (min-width: 0px) {
+  .conteudo__texto--botao{
+    width: 200px;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+  }
+  .conteudo__texto--botao a{
+    text-decoration: none;
+    background-color: transparent ;
+    color: #1A1E21;
+    transition: .2s all;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .conteudo__texto--botao{
+    display: inline-block;
+    width: auto;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;  
+  }
+  .conteudo__texto--botao a{
+    text-decoration: none;
+    background-color: transparent ;
+    color: #1A1E21;
+    transition: .2s all;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+@media  screen and (min-width: 0) {
+  .conteudo__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .conteudo__texto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+}

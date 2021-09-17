@@ -1,0 +1,7 @@
+.galeria__imagens{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}

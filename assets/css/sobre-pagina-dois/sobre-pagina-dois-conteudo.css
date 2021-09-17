@@ -1,0 +1,23 @@
+.sobre__pagina--dois--conteudo{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media  screen and (min-width: 0) {
+  .sobre__pagina--dois--conteudo{
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .sobre__pagina--dois--conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

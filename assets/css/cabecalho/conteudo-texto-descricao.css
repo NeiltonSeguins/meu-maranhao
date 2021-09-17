@@ -1,0 +1,21 @@
+.conteudo__texto--descricao{
+  color: #fdfdfd;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media  screen and (min-width: 0) {
+  .conteudo__texto--descricao{
+    font-size: 20px;
+    margin:30px 30px;
+    text-align: center;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .conteudo__texto--descricao{
+    font-size: 31px;
+    margin:30px auto;
+    text-align: center;
+  }
+}

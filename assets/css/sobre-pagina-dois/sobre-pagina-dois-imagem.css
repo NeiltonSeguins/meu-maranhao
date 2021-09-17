@@ -1,0 +1,25 @@
+.sobre__pagina--dois--imagem{
+  margin-bottom: 30px;
+}
+
+@media  screen and (min-width: 0) {
+  .sobre__pagina--dois--imagem{
+    max-width: 540px;
+    max-height: 460px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .sobre__pagina--dois--imagem{
+    max-width: auto;
+    max-height: auto;
+    width: 540px;
+    height: 460px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

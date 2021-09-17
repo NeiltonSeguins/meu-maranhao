@@ -1,0 +1,7 @@
+.rodape__lista{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 75%;
+}

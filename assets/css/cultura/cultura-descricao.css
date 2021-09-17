@@ -1,0 +1,18 @@
+
+@media  screen and (min-width: 0) {
+  .cultura__descricao{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: #fdfdfd;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .cultura__descricao{
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: #fdfdfd;
+  }
+}

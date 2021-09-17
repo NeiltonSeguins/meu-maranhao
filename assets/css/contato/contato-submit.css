@@ -1,0 +1,11 @@
+.contato__submit{
+  background: #fdfdfd;
+  border: none;
+  width: 25%;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.contato__submit:hover{
+  cursor: pointer;
+}

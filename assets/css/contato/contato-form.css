@@ -1,0 +1,15 @@
+.contato__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+  width: 50%;
+  height: auto;
+}
+
+@media  screen and (min-width: 0px) {
+  .contato__form{
+    margin-right: 0;
+    width: 80%;
+  }
+}

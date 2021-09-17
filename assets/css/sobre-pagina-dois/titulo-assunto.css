@@ -1,0 +1,18 @@
+.titulo__assunto{
+  font-size: 31px;
+  padding: 20px;
+}
+
+@media  screen and (min-width: 0) {
+  .titulo__assunto{
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+
+@media  screen and (min-width: 0) {
+  .titulo__assunto{
+    text-align: center;
+    padding: 20px;
+  }
+}

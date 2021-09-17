@@ -1,0 +1,23 @@
+.cabecalho{
+  /* background: #A61127; */
+  background: url('../img/banner-1.jpg') center center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+@media  screen and (min-width: 0) {
+  .cabecalho{
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .cabecalho{
+    height: 100vh;
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+  }
+}
