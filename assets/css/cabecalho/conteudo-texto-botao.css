@@ -1,8 +1,8 @@
-@media  screen and (min-width: 0px) {
+@media  screen and (min-width: 425px) {
   .conteudo__texto--botao{
-    width: 200px;
-    padding: 15px;
-    border-radius: 50px;
+    width: 300px;
+    padding: 0.9rem;
+    border-radius: 10px;
     border: none;
   }
   .conteudo__texto--botao a{
@@ -11,19 +11,19 @@
     color: #1A1E21;
     transition: .2s all;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 1.30rem;
     font-weight: 600;
-    margin: 10px;
+    margin: 0.6rem;
   }
 }
 
 @media  screen and (min-width: 768px) {
   .conteudo__texto--botao{
     display: inline-block;
-    width: auto;
-    padding: 15px;
+    width: 400px;
+    padding: 0.9rem;
     border: none;
-    border-radius: 25px;  
+    border-radius: 10px;  
   }
   .conteudo__texto--botao a{
     text-decoration: none;
@@ -31,8 +31,8 @@
     color: #1A1E21;
     transition: .2s all;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.30rem;
     font-weight: 600;
-    margin: 10px;
+    margin: 0.6rem;
   }
 }

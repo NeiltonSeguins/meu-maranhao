@@ -1,6 +1,6 @@
 .sobre{
-  margin: 30px 50px 30px 50px;
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
 }
+

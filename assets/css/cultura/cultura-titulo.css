@@ -3,10 +3,11 @@
   color: #fdfdfd;
 }
 
-@media  screen and (min-width: 0) {
+@media  screen and (min-width: 425px) {
   .cultura__titulo{
-    font-size: 1.6rem;
+    font-size: 1.675rem;
     color: #fdfdfd;
+    text-align: start;
   }
 }
 

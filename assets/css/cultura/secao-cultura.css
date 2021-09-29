@@ -1,12 +1,12 @@
 
-@media  screen and (min-width: 0) {
+@media  screen and (min-width: 425px) {
   .secao__cultura{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 1.675rem;
+    margin-bottom: 1.875rem;
   }
 }
 

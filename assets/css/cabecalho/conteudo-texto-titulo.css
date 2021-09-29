@@ -2,17 +2,17 @@
   color: #fdfdfd;
   font-family: Poppins, cursive;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
-@media  screen and (min-width: 0) {
+@media  screen and (min-width: 425px) {
   .conteudo__texto--titulo{
-    font-size: 90px;
+    font-size: 3.25rem;
   }
 }
 
 @media  screen and (min-width: 768px) {
   .conteudo__texto--titulo{
-    font-size: 120px;
+    font-size: 4.25rem;
   }
 }

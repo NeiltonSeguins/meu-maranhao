@@ -1,9 +1,9 @@
 
-@media  screen and (min-width: 0) {
+@media  screen and (min-width: 425px) {
   .cultura__descricao{
-    font-size: 1.5rem;
-    line-height: 1.5;
-    text-align: justify;
+    font-size: 1.24rem;
+    line-height: 1.25rem;
+    text-align: start;
     color: #fdfdfd;
   }
 }

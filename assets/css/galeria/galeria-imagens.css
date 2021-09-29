@@ -5,3 +5,9 @@
   margin-bottom: 30px;
   justify-content: space-around;
 }
+@media screen and (min-width: 425px){
+  .galeria__imagens{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+}

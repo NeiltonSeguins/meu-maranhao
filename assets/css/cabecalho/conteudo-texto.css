@@ -1,4 +1,4 @@
-@media  screen and (min-width: 0) {
+@media  screen and (min-width: 425px) {
   .conteudo__texto{
     display: flex;
     flex-direction: column;

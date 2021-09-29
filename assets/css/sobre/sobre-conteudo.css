@@ -4,7 +4,7 @@
   justify-content: space-between;
 }
 
-@media  screen and (min-width: 0) {
+@media  screen and (min-width: 425px) {
   .sobre__conteudo{
     align-items: center;
     display: flex;

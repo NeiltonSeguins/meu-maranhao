@@ -9,8 +9,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Maranhão</title>
-  <link href="./assets/css/normalize.css" rel="stylesheet" />
   <link href="./assets/css/reset.css" rel="stylesheet" />
+  <link href="./assets/css/container.css" rel="stylesheet" />
+  <link href="./assets/css/normalize.css" rel="stylesheet" />
   <link href="./assets/css/cabecalho.css" rel="stylesheet" />
   <link href="./assets/css/cabecalho/cabecalho-conteudo.css" rel="stylesheet" />
   <link href="./assets/css/cabecalho/conteudo-texto.css" rel="stylesheet" />
@@ -63,7 +64,7 @@
   <!-- Cabeçalho -->
   <header class="cabecalho" id="cabecalho">
     <div class="cabecalho__conteudo">
-      <h1><a href="#"><img class="logo" src="./assets/img/logo.png" alt="Bandeira do Maranhão e nome meu maranhão"></a></h1>
+      <a href="#"><img class="logo" src="./assets/img/logo.png" alt="Bandeira do Maranhão e nome meu maranhão"></a>
       <nav class="menu">
         <ul class="menu__lista">
             <li class="menu__item"><a class="menu__link ativo" href="#cabecalho">Inicio</a></li>
@@ -76,16 +77,16 @@
     </div>
 
     <div class="conteudo__texto">
-      <h2 class="conteudo__texto--titulo">MARANHÃO</h2>
+      <h1 class="conteudo__texto--titulo">MARANHÃO</h1>
       <p class="conteudo__texto--descricao">Bem vindo ao Maranhão, terra de gente feliz e hospitaleira.</p>
-      <button class="conteudo__texto--botao"><a href="#sobre">Marocar!</a></button>
+      <button class="conteudo__texto--botao"><a href="#sobre">Conhecer o Maranhão</a></button>
     </div>
   </header>
 
   <!-- Seção Principal -->
   <main>
     <!-- Seção Sobre -->
-    <section class="sobre" id="sobre">
+    <section class="sobre container" id="sobre">
       <h2 class="sobre__titulo">Sobre o estado</h2>
       <span class="sobre__span">Nossa história</span>
       
@@ -107,7 +108,7 @@
       </div>
     </section>
     <!-- Seçao Cultura  -->
-    <section class="culturas" id="cultura">
+    <section class="culturas container" id="cultura">
       <div class="culturas_cabecalho">
         <h2 class="sobre__titulo">Cultura</h2>
         <span class="sobre__span">Nossa cultura</span>
@@ -115,7 +116,7 @@
 
       <div class="secao__cultura">
         <div class="cultura">
-          <img alt="Imagem de religiosidade" class="cultura__imagem" src="./assets/img/tambor-de-crioula-1.jpg" />
+          <img alt="Um homem canta enquanto duas coureiras realizam a punga" class="cultura__imagem" src="./assets/img/tambor-de-crioula-1.jpg" />
           <div class="cultura__conteudo">
               <h4 class="cultura__titulo">Religiosidade</h4>
               <p class="cultura__descricao">Entre as principais festas religiosas do estado se destacam o 
@@ -166,7 +167,7 @@
       </div>
     </section>
     <!-- Seçao Galeria -->
-    <section class="galeria" id="galeria">
+    <section class="galeria container" id="galeria">
       <div class="galeria__cabecalho">
         <h2 class="sobre__titulo">Galeria</h2>
         <span class="sobre__span">Nossa gente</span>

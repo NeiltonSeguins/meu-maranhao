@@ -4,18 +4,22 @@
   font-weight: 500;
 }
 
-@media  screen and (min-width: 0) {
+@media  screen and (min-width: 425px) {
   .conteudo__texto--descricao{
-    font-size: 20px;
-    margin:30px 30px;
+    font-size: 1.25rem;
+    width: 400px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     text-align: center;
   }
 }
 
 @media  screen and (min-width: 768px) {
   .conteudo__texto--descricao{
-    font-size: 31px;
-    margin:30px auto;
+    font-size: 1.30rem;
+    width: 600px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     text-align: center;
   }
 }
