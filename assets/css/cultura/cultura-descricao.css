@@ -1,5 +1,7 @@
 
-@media  screen and (min-width: 425px) {
+@media  only screen and (min-device-width: 320px) 
+and  (max-device-width: 425px) 
+and (orientation: portrait) {
   .cultura__descricao{
     font-size: 1.24rem;
     line-height: 1.25rem;

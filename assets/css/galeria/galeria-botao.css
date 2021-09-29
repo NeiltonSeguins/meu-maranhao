@@ -1,11 +1,11 @@
 .galeria__botao--botao{
   display: inline-block;
   background: #A61127;
-  width: auto;
-  padding: 15px;
+  width: 100%;
+  padding: 0.7rem;
   border: none;
-  border-radius: 25px;
-  margin-bottom: 100px;
+  border-radius: 10px;
+  margin-bottom:3rem;
 }
 .galeria__botao--botao a{
   text-decoration: none;
@@ -13,12 +13,12 @@
   color: #fdfdfd;
   transition: .2s all;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 0.8rem;
   font-weight: 600;
-  margin: 10px;
+  margin: 0.8rem;
 }
-
 .galeria__botao--botao:hover{
   box-shadow: 1px 1px 8px 1px #888888;
   background: #ce1631;
 }
+

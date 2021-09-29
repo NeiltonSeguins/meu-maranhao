@@ -4,10 +4,10 @@
   font-weight: 500;
 }
 
-@media  screen and (min-width: 425px) {
+@media  only screen and (min-device-width: 320px) and  (max-device-width: 425px) {
   .conteudo__texto--descricao{
     font-size: 1.25rem;
-    width: 400px;
+    width: 300px;
     margin-bottom: 2rem;
     margin-top: 2rem;
     text-align: center;
