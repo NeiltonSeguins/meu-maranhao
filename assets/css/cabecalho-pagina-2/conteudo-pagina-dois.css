@@ -19,8 +19,11 @@ and (orientation: portrait) {
 
 @media  screen and (min-width: 768px) {
   .conteudo__pagina--dois{
-    align-items: center;
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    text-align: center;
   }
 }

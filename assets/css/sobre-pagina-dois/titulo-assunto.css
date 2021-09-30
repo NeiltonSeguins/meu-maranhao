@@ -11,3 +11,12 @@ and (orientation: portrait) {
     padding: 0px;
   }
 }
+
+
+@media  only screen and (min-device-width: 768px){
+  .titulo__assunto{
+    text-align: start;
+    font-size: 1.25rem;
+    padding: 0 .7rem;
+  }
+}

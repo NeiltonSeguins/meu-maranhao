@@ -18,11 +18,10 @@ and (orientation: portrait) {
 
 @media  screen and (min-width: 768px) {
   .sobre__pagina--dois--imagem{
-    max-width: auto;
-    max-height: auto;
-    width: 540px;
-    height: 460px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
   }
 }

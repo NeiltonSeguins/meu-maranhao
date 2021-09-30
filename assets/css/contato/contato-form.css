@@ -15,3 +15,9 @@ and (orientation: portrait) {
     width: 80%;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .contato__form{
+    margin-right: 20px;
+  }
+}

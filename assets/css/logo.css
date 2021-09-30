@@ -15,8 +15,12 @@ and (orientation: portrait) {
   }
 }
 
-@media  screen and (min-width: 768px) {
+@media  only screen and (min-width: 768px) {
   .logo{
-    display: none;
+    display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
   }
 }

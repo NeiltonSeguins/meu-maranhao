@@ -1,24 +1,29 @@
-.galeria__botao--botao{
-  display: inline-block;
-  background: #A61127;
-  width: 100%;
-  padding: 0.7rem;
-  border: none;
-  border-radius: 10px;
-  margin-bottom:3rem;
-}
-.galeria__botao--botao a{
-  text-decoration: none;
-  background-color: transparent ;
-  color: #fdfdfd;
-  transition: .2s all;
-  cursor: pointer;
-  font-size: 0.8rem;
-  font-weight: 600;
-  margin: 0.8rem;
-}
+
 .galeria__botao--botao:hover{
   box-shadow: 1px 1px 8px 1px #888888;
   background: #ce1631;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .galeria__botao--botao{
+    display: inline-block;
+    background: #A61127;
+    width: 90vw;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom:3rem;
+  }
+  .galeria__botao--botao a{
+    text-decoration: none;
+    background-color: transparent ;
+    color: #fdfdfd;
+    transition: .2s all;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0.8rem;
+  }
 }
 

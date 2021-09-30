@@ -23,9 +23,9 @@ and (orientation: portrait) {
   }
 }
 
-@media  screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .contato__mensagem{
-    margin-left: 0 50px;
-    align-items: flex-end;
+    margin-left: 20px;
+    align-items: center;
   }
 }

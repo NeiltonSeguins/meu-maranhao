@@ -14,12 +14,11 @@
   }
 }
 
-@media  screen and (min-width: 768px) {
+@media  only screen and (min-width: 768px) {
   .conteudo__texto--descricao{
     font-size: 1.30rem;
     width: 600px;
     margin-bottom: 2rem;
-    margin-top: 2rem;
     text-align: center;
   }
 }

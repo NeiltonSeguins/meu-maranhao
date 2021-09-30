@@ -22,3 +22,14 @@
   box-shadow: 1px 1px 8px 1px #888888;
   background: #ce1631;
 }
+
+
+@media only screen and (min-width: 768px) {
+  .cultura__botao--botao{
+    width: 90vw;
+  }
+
+  .cultura__botao--botao a{
+    font-size: 1.1rem;
+  }
+}

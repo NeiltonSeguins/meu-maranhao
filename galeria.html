@@ -19,6 +19,7 @@
   <link href="./assets/css/cabecalho-pagina-2/conteudo-pagina-dois-descricao.css" rel="stylesheet" />
   <link href="./assets/css/cabecalho/conteudo-texto-botao.css" rel="stylesheet" />
   <link href="./assets/css/logo.css" rel="stylesheet" />
+  <link href="./assets/css/menu.css" rel="stylesheet" />
   <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
   <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
   <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
@@ -56,9 +57,9 @@
   <header class="cabecalho__pagina--dois" id="cabecalho-pagina-dois">
     <div class="cabecalho__conteudo">
       <a href="index.html"><img class="logo" src="./assets/img/logo.png" alt="Bandeira do Maranhão e nome meu maranhão"></a>
-      <nav class="menu">
+      <nav class="menu" id="nav">
         <ul class="menu__lista">
-            <li class="menu__item"><a class="menu__link ativo" href="index.html">Inicio</a></li>
+            <li class="menu__item"><a class="menu__link ativo" href="index.html">Início</a></li>
             <li class="menu__item"><a class="menu__link" href="index.html #sobre">Sobre</a></li>
             <li class="menu__item"><a class="menu__link" href="index.html #cultura">Cultura</a></li>
             <li class="menu__item"><a class="menu__link" href="#galeria">Galeria</a></li>
@@ -353,7 +354,7 @@
     </section>
 
     <!-- Seção Contato -->
-    <section class="contato" id="contato">
+    <section class="contato container" id="contato">
           <div class="contato__cabecalho">
             <h2 class="contato__titulo">Contato</h2>
             <span class="contato__descricao">Fale conosco</span>
@@ -368,7 +369,7 @@
                   <input type="email" id="email" class="contato__input" required placeholder="seunome@dominio.com">
                 </div>
                 <div class="contato__mensagem">
-                  <textarea id="mensagem" cols="70" rows="10" class="contato__textarea" required placeholder="Escreva-nos"></textarea>
+                  <textarea id="mensagem" cols="70" rows="10" class="contato__textarea" required placeholder="Escreva-nos uma mensagem aqui!"></textarea>
                   <input type="submit" value="Enviar" class="contato__submit">
                 </div>
             </form>

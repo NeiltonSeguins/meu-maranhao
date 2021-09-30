@@ -10,11 +10,10 @@ and (orientation: portrait) {
   }
 }
 
-@media  screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .cultura__descricao{
-    font-size: 1.1875rem;
-    line-height: 1.5;
-    text-align: justify;
+    font-size: 0.9rem;
+    text-align: start;
     color: #fdfdfd;
   }
 }

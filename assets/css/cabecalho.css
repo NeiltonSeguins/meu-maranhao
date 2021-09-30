@@ -15,11 +15,11 @@ and (orientation: portrait){
   }
 }
 
-@media  screen and (min-width: 768px) {
+@media  only screen and (min-width: 768px) {
   .cabecalho{
     height: 100vh;
     width: auto;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
   }
 }

@@ -10,3 +10,10 @@ and (orientation: portrait) {
     font-size: 1.85rem;
   }
 }
+
+@media  only screen and (min-device-width: 768px) {
+  .agradecimento__titulo{
+    text-align: center;
+    font-size: 2rem;
+  }
+}

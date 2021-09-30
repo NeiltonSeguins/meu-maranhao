@@ -13,9 +13,10 @@ and (orientation: portrait) {
   }
 }
 
-@media  screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .cultura__titulo{
-    font-size: 1.4375rem;
+    font-size: 1.367rem;
     color: #fdfdfd;
+    text-align: start;
   }
 }
