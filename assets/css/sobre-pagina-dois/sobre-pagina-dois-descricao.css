@@ -1,17 +1,19 @@
 .sobre__pagina--dois--descricao{
-  text-align: justify;
-  font-size: 25px;
-  width: auto;
-  line-height: 2.25rem;
-  margin: 0 auto;
+  text-align: start;
+  font-size: 1.65rem;
+  width: 50%;
+  line-height: 1.25rem;
+  margin: 1.2rem auto;
 }
 
-@media  screen and (min-width: 0) {
+@media  only screen and (min-device-width: 320px) 
+and  (max-device-width: 425px) 
+and (orientation: portrait) {
   .sobre__pagina--dois--descricao{
     width: auto;
-    font-size: 25px;
-    padding: 0;
-    margin-bottom: 20px;
+    font-size: 1.1rem;
+    margin-left: 0;
+    margin-bottom: 1.65rem;
   }
 }
 

@@ -9,8 +9,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Maranhão</title>
-  <link href="./assets/css/normalize.css" rel="stylesheet" />
   <link href="./assets/css/reset.css" rel="stylesheet" />
+  <link href="./assets/css/normalize.css" rel="stylesheet" />
+  <link href="./assets/css/container.css" rel="stylesheet" />
   <link href="./assets/css/cabecalho-pagina-2/cabecalho-pagina-dois.css" rel="stylesheet" />
   <link href="./assets/css/cabecalho/cabecalho-conteudo.css" rel="stylesheet" />
   <link href="./assets/css/cabecalho-pagina-2/conteudo-pagina-dois.css" rel="stylesheet" />
@@ -49,10 +50,12 @@
   <link href="./assets/css/agradecimento/agradecimento-descricao.css" rel="stylesheet" />
 </head>
 <body>
+  <!-- Botão pular para o conteúdo principal  -->
+  <a href="#conteudoPrincipal" class="pularNavegacao escondeVisualmente">Pular para conteúdo principal</a>
   <!-- Cabeçalho -->
   <header class="cabecalho__pagina--dois" id="cabecalho-pagina-dois">
     <div class="cabecalho__conteudo">
-      <h1><a href="index.html"><img class="logo" src="./assets/img/logo.png" alt="Bandeira do Maranhão e nome meu maranhão"></a></h1>
+      <a href="index.html"><img class="logo" src="./assets/img/logo.png" alt="Bandeira do Maranhão e nome meu maranhão"></a>
       <nav class="menu">
         <ul class="menu__lista">
             <li class="menu__item"><a class="menu__link ativo" href="index.html">Inicio</a></li>
@@ -65,7 +68,7 @@
     </div>
 
     <div class="conteudo__pagina--dois">
-      <h2 class="conteudo__pagina--dois--titulo">Nossa cultura</h2>
+      <h2 class="conteudo__pagina--dois--titulo" id="conteudoPrincipal">Nossa cultura</h2>
       <p class="conteudo__pagina--dois--descricao">Nossa cultura é parte de quem nós somos.</p>
     </div>
   </header>
@@ -73,24 +76,24 @@
   <!-- Seção Principal -->
   <main>
     <!-- Seção Galeria -->
-    <section class="sobre__pagina--dois" id="galeria">
+    <section class="sobre__pagina--dois container" id="galeria">
     <!-- Expressões Artísticas       -->
       <h2 class="sobre__pagina--dois--titulo">Expressões Artísticas</h2>
-      <div>
+      <!-- Tambor de crioula -->
         <div class="sobre__pagina--dois--conteudo">
-          <div class="container">
+          <div>
             <h3 class="titulo__assunto">Tambor de Crioula</h3>
             <p class="sobre__pagina--dois--descricao">É uma manifestação de Raíz africana. Foi reconhecido em 2011 
               como patrimônio Imaterial brasileiro. Pode acontecer durante o ano todo, mas é mais comum no São João 
               e no carnaval. Os homens apenas tocam tambores feitos de troncos de árvores e cobertos de couro, 
               enquanto que as mulheres dançam em roda com saias rodadas e coloridas.</p>
           </div>
-          <img src="./assets/img/tambor-de-crioula-1.jpg" alt="" class="sobre__pagina--dois--imagem">
+          <img src="./assets/img/tambor-de-crioula-1.jpg" alt="Foto: Roda de Tambor de crioula onde mulheres realizam o movimento conhecido como punga." class="sobre__pagina--dois--imagem">
         </div>
-  
+      <!-- Bumba meu boi -->
         <div class="sobre__pagina--dois--conteudo">
-          <img src="./assets/img/bumba-meu-boi-2.jpeg" alt="" class="sobre__pagina--dois--imagem">
-          <div class="container">
+          <img src="./assets/img/bumba-meu-boi-2.jpeg" alt="Foto: Fantasia de boi típica do festejo de Bumba meu boi do estado. Decorado com miçangas e acessórios e bandeiras coloridas ao fundo." class="sobre__pagina--dois--imagem">
+          <div>
             <h3 class="titulo__assunto">Bumba Meu Boi</h3>
             <p class="sobre__pagina--dois--descricao">Também é patrimônio imaterial da humanidade e é a expressão 
               máxima da cultura maranhense. As brincadeiras e celebrações duram o ano inteiro. As vestimentas são 
@@ -98,20 +101,21 @@
               diferença no modo como se brinca. Entre eles temos de Zabumba, orquestra e costa de mão.</p>
           </div>
         </div>
+      <!-- Reggae -->
         <div class="sobre__pagina--dois--conteudo">
-          <div class="container">
+          <div>
             <h3 class="titulo__assunto">Reggae</h3>
             <p class="sobre__pagina--dois--descricao">Gênero musical com origens jamaicanas, o reggae popularizou-se 
               no Maranhão na década de 70, através dos programas de rádios caribenhas que eram ouvidas no Maranhão. 
               Apresenta um ritmo dançante e suave, com uma batida bem característica e contagiante. O Reggae Root’s 
               é o de maior preferência e é dançado em grupo através de coreografias ou agarradinho.</p>
           </div>
-          <img src="./assets/img/reggae.jpg" alt="" class="sobre__pagina--dois--imagem">
+          <img src="./assets/img/reggae.jpg" alt="Foto: Grupo de pessoas dançando reggae no centro histórico com cores típicas do movimento. Pessoas ao fundo." class="sobre__pagina--dois--imagem">
         </div>
-  
+      <!-- Dança do caroço  -->
         <div class="sobre__pagina--dois--conteudo">
-          <img src="./assets/img/danca-do-caroco.jpg" alt="" class="sobre__pagina--dois--imagem">
-          <div class="container">
+          <img src="./assets/img/danca-do-caroco.jpg" alt="Foto: Pessoas dançando em um palco vestidas com roupas típicas da dança do caroço." class="sobre__pagina--dois--imagem">
+          <div>
             <h3 class="titulo__assunto">Dança do Caroço</h3>
             <p class="sobre__pagina--dois--descricao">A Dança do Coco tem forte influência africana e indígena, 
               celebrada nas fazendas de cultivo de cana de açúcar e de criação de gado. Atualmente, está presente 
@@ -119,229 +123,233 @@
               com mais frequência na região da baixada, região dos Lagos e Campos Floridos.</p>
           </div>
         </div>
-      </div>
     <!-- Fim da sub-sessão Expressões Artísticas       -->
 
     <!-- Culinária       -->
       <h2 class="sobre__pagina--dois--titulo">Culinária</h2>
-      <div>
-        <div class="sobre__pagina--dois--conteudo">
-          <div class="container">
+      <!-- Caranguejada    -->
+      <div class="sobre__pagina--dois--conteudo">
+          <div>
             <h3 class="titulo__assunto">Caranguejada</h3>
             <p class="sobre__pagina--dois--descricao">O prato é preparado cozinhando os caranguejos também inteiros em 
               um molho com tomate, cebola e bastante cheiro verde e leite de coco. O acompanhamento tradicional é o 
               arroz de toucinho, farofa e vinagrete. A diferença para o caranguejo toc toc é a forma como é cozido 
               (toc toc é na água, caranguejada em um molho).</p>
           </div>
-          <img src="./assets/img/caranguejada.jpg" alt="" class="sobre__pagina--dois--imagem">
-        </div>
-  
-        <div class="sobre__pagina--dois--conteudo">
-          <img src="./assets/img/culinaria.jpg" alt="" class="sobre__pagina--dois--imagem">
-          <div class="container">
+          <img src="./assets/img/caranguejada.jpg" alt="Foto: Dois caranguejos em um prato e folhas de coentro para decoração." class="sobre__pagina--dois--imagem">
+      </div>
+      <!-- Arroz de cuxá -->
+      <div class="sobre__pagina--dois--conteudo">
+          <img src="./assets/img/culinaria.jpg" alt="Foto: Tigela contendo arroz de cuxá. Contém arroz, vinagreira e camarões secos." class="sobre__pagina--dois--imagem">
+          <div>
             <h3 class="titulo__assunto">Arroz de Cuxá</h3>
             <p class="sobre__pagina--dois--descricao">Uma mistura árabe, portuguesa e africana deu origem ao prato 
               típico do Maranhão mais famoso no Brasil. Já foi homenageado em poesia de Luís de Azevedo.  Além de 
               arroz branco, a receita de arroz de cuxá também leva camarão seco, vinagreira, gergelim-branco, 
               cebola, alho, azeite de oliva e sal.</p>
           </div>
-        </div>
-        <div class="sobre__pagina--dois--conteudo">
-          <div class="container">
+      </div>
+      <!-- Pescada escabeche -->
+      <div class="sobre__pagina--dois--conteudo">
+          <div>
             <h3 class="titulo__assunto">Pescada escabeche</h3>
             <p class="sobre__pagina--dois--descricao">O peixe escabeche é um peixe frito coberto por um molho vermelho bem temperado por cima. O peixe pode ser em postas ou em filé, sendo muito usada a pescada. O molho pode (ou não) conter leite de coco e camarão. Basicamente é um filé de peixe ao molho de camarão sem leite de coco.</p>
           </div>
-          <img src="./assets/img/pescada-escabeche.jpg" alt="" class="sobre__pagina--dois--imagem">
-        </div>
-  
-        <div class="sobre__pagina--dois--conteudo">
-          <img src="./assets/img/tiquira.jpg" alt="" class="sobre__pagina--dois--imagem">
-          <div class="container">
+          <img src="./assets/img/pescada-escabeche.jpg" alt="Foto: Prato de filé de peixe pescada cozido ao molho com camarões frescos bem temperado." class="sobre__pagina--dois--imagem">
+      </div>
+      <!-- Tiquira -->
+      <div class="sobre__pagina--dois--conteudo">
+          <img src="./assets/img/tiquira.jpg" alt="Foto: Garrafas de bebida de diferentes cores. Algumas possuem caranguejos imersos no líquido." class="sobre__pagina--dois--imagem">
+          <div>
             <h3 class="titulo__assunto">Tiquira</h3>
             <p class="sobre__pagina--dois--descricao">A tiquira é uma bebida destilada com alto teor alcoólico, feita da mandioca. Tem origem indígena e costuma-se dizer que é a “bebida típica do Brasil”, já que a cachaça é feita da cana de açúcar, que foi importada pelos europeus. É típica do estado do Maranhão era produzida de forma totalmente artesanal até serem vendidas industrialmente em 2012.</p>
           </div>
-        </div>
-        <div class="sobre__pagina--dois--conteudo">
-          <div class="container">
+      </div>
+      <!-- Guaraná Jesus -->
+      <div class="sobre__pagina--dois--conteudo">
+          <div>
             <h3 class="titulo__assunto">Guaraná Jesus</h3>
             <p class="sobre__pagina--dois--descricao">É uma bebida típica muito consumida no Maranhão. De sabor doce, com um toque de canela, a bebida cor-de-rosa foi inventada por um farmacêutico: Jesus Norberto Gomes, em 1927. Foi em 1980 que a marca foi vendida a uma franqueada da Coca-Cola no Maranhão e em 2001 foi comprado pela Coca-Cola Brasil.</p>
           </div>
-          <img src="./assets/img/guarana-jesus.jpeg" alt="" class="sobre__pagina--dois--imagem">
-        </div>
+          <img src="./assets/img/guarana-jesus.jpeg" alt="Foto: Lata cor de rosa e azul. Contém refrigerante guaraná. Ao fundo bandeirolas coloridas." class="sobre__pagina--dois--imagem">
       </div>
     <!-- Fim da sub-sessão Culinária       -->
 
     <!-- Lugares       -->
     <h2 class="sobre__pagina--dois--titulo">Lugares</h2>
-    <div>
+      <!-- Poço azul -->
       <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+        <div>
           <h3 class="titulo__assunto">Poço azul e Encanto azul</h3>
           <p class="sobre__pagina--dois--descricao">O Encanto Azul é um lago que se forma de uma nascente no meio do Cerradão, uma área de transição entre Cerrado e Floresta Amazônica.
             Ele fica escondido em um pequeno vale, no meio de paredões de rocha. O Poço Azul fica dentro de um complexo turístico com várias cachoeiras e atividades de aventura, como tirolesa e trilhas</p>
         </div>
-        <img src="./assets/img/poco-azul.jpg" alt="" class="sobre__pagina--dois--imagem">
+        <img src="./assets/img/poco-azul.jpg" alt="Foto: Lagoa cristalina com águas na cor azul clara. Ao fundo corredores de água escorrem das rochas." class="sobre__pagina--dois--imagem">
       </div>
-
+      <!-- Portal da chapada das mesas -->
       <div class="sobre__pagina--dois--conteudo">
-        <img src="./assets/img/portal-chapada.jpg" alt="" class="sobre__pagina--dois--imagem">
-        <div class="container">
+        <img src="./assets/img/portal-chapada.jpg" alt="Foto: Portal da chapada das mesas. Uma rocha que possui uma fenda ao centro. Ao fundo se olha toda extensão da chapada das mesas." class="sobre__pagina--dois--imagem">
+        <div>
           <h3 class="titulo__assunto">Portal da Chapada das Mesas</h3>
           <p class="sobre__pagina--dois--descricao">Naturalmente esculpido na rocha, o Portal da Chapada das Mesas é uma imensa abertura em forma de pirâmide, de onde a gente tem uma das mais belas vistas da região.Dá para ver boa parte da extensa vegetação do Cerrado, os Pilares da Chapada e o fabuloso Morro do Chapéu com todo seu esplendor.</p>
         </div>
       </div>
+      <!-- Lençóis maranhenses  -->
       <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+        <div>
           <h3 class="titulo__assunto">Lençóis Maranhenses</h3>
           <p class="sobre__pagina--dois--descricao">As lagoas de água doce entre as dunas formam um cenário único em todo o mundo e é impossível não se emocionar ao chegar no topo da paisagem e ver a imensidão dos Lençóis Maranhenses. Quem visita os Lençóis Maranhenses conta com três bases principais para fazer os passeios pela região: Barreirinhas, Santo Amaro e Atins.</p>
         </div>
-        <img src="./assets/img/lencois-maranhenses.jpg" alt="" class="sobre__pagina--dois--imagem">
+        <img src="./assets/img/lencois-maranhenses.jpg" alt="Foto: Quilômetros de dunas de areia e pequenas lagunas entre elas. A areia é clara e as lagunas azuis." class="sobre__pagina--dois--imagem">
       </div>
-
+      <!-- Alcântara  -->
       <div class="sobre__pagina--dois--conteudo">
-        <img src="./assets/img/alcantara.jpg" alt="" class="sobre__pagina--dois--imagem">
-        <div class="container">
+        <img src="./assets/img/alcantara.jpg" alt="Foto: Ruínas da igreja de São Matias. Na frente um mastro e ao fundo casas." class="sobre__pagina--dois--imagem">
+        <div>
           <h3 class="titulo__assunto">Alcântara</h3>
           <p class="sobre__pagina--dois--descricao">Conhecida como "a cidade que parou no tempo",  guarda um conjunto de mais de 300 construções coloniais - muitas em ruínas, como a Matriz de São Matias, cartão-postal da cidade. Sobrados, igrejas e palácios são heranças do período de ouro da vila que, no século 18, teve seu apogeu com as lavouras de cana-de-açúcar e de algodão. </p>
         </div>
       </div>
+      <!-- Lagoa de Coroatá -->
       <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+        <div>
           <h3 class="titulo__assunto">Lagoa de Coroatá</h3>
           <p class="sobre__pagina--dois--descricao">Também conhecido como Fonte do Coroatá, este é mais um paraíso de águas cristalinas, porém bem mais calmo, já que o turismo aqui é pouco explorado. Fica entre as cidades de Morros e Cachoeira Grande, as margens da MA-020.</p>
         </div>
-        <img src="./assets/img/lagoa-de-coroata.jpeg" alt="" class="sobre__pagina--dois--imagem">
+        <img src="./assets/img/lagoa-de-coroata.jpeg" alt="Foto: Lagoa rasa de águas verdes e cristalinas. Ao fundo floresta de árvores e vegetação nativa da região." class="sobre__pagina--dois--imagem">
       </div>
+      <!-- Centro histórico de slz -->
       <div class="sobre__pagina--dois--conteudo">
-        <img src="./assets/img/centro-historico-slz.jpg" alt="" class="sobre__pagina--dois--imagem">
-        <div class="container">
+        <img src="./assets/img/centro-historico-slz.jpg" alt="Foto: Escadaria de pedras. Em perspectiva um poste antigo e ao fundo casarões históricos." class="sobre__pagina--dois--imagem">
+        <div>
           <h3 class="titulo__assunto">Centro Histórico de São Luís</h3>
           <p class="sobre__pagina--dois--descricao">O centro Histórico de São Luís foi incluído na lista do Patrimônio Mundial Cultural e Natural da Unesco. Possui uma grande quantidade de prédios coloniais que reproduzem com muita nostalgia o sentimento de época. As ruas de pedra, as escadarias de pedras de cantaria, os becos e vielas contam muita história através de si mesmas.</p>
         </div>
       </div>
-    </div>
     <!-- Fim da sub-sessão Lugares       -->
 
     <!-- Religiosidade       -->
     <h2 class="sobre__pagina--dois--titulo">Religiosidade</h2>
-    <div>
-      <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+    <!-- Tambor de Mina -->
+    <div class="sobre__pagina--dois--conteudo">
+        <div>
           <h3 class="titulo__assunto">Tambor de Mina</h3>
           <p class="sobre__pagina--dois--descricao">Tambor de Mina é a denominação mais difundida no Maranhão dentre as religiões de origem afro. O nome Mina deriva de Negro-Mina, como eram chamados os escravos que, em sua vinda para o Brasil, partiam da costa da Mina, na atual Gana. Nelas, cultuam-se entidades chamadas voduns, que se incorporam durante rituais.</p>
         </div>
-        <img src="./assets/img/Tambor-de-Mina.jpg" alt="" class="sobre__pagina--dois--imagem">
-      </div>
-
-      <div class="sobre__pagina--dois--conteudo">
-        <img src="./assets/img/festa-do-divino.jpg" alt="" class="sobre__pagina--dois--imagem">
-        <div class="container">
+        <img src="./assets/img/Tambor-de-Mina.jpg" alt="Foto: Mulheres dançam com suas saias rodadas enquanto os homens tocam e cantam." class="sobre__pagina--dois--imagem">
+    </div>
+    <!-- Festa do Divino Espírito Santo -->
+    <div class="sobre__pagina--dois--conteudo">
+        <img src="./assets/img/festa-do-divino.jpg" alt="Foto: Mulheres com roupas tradicionais andam em direção a igreja com seus tambores. Elas são chamadas de caixeiras." class="sobre__pagina--dois--imagem">
+        <div>
           <h3 class="titulo__assunto">Festa do Divino Espírito Santo</h3>
           <p class="sobre__pagina--dois--descricao">Comemorada, durante todo o mês de maio, desde os tempos coloniais, a Festa do Divino Espírito Santo é uma curiosa mistura de devoção ao Divino com homenagens ao Império. A origem da Festa do Divino remonta às celebrações religiosas realizadas em Portugal a partir do século XIV.</p>
         </div>
-      </div>
-      <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+    </div>
+    <!-- Celebração a São Pedro  -->
+    <div class="sobre__pagina--dois--conteudo">
+        <div>
           <h3 class="titulo__assunto">Celebração à São Pedro</h3>
           <p class="sobre__pagina--dois--descricao">Tradicional procissão marítima em homenagem ao dia de São Pedro, padroeiro dos pescadores. No dia 29 de Junho pescadores atravessam a Baía de São Marcos para agradecer ao Santo padroeiro.</p>
         </div>
-        <img src="./assets/img/sao-pedro.jpg" alt="" class="sobre__pagina--dois--imagem">
-      </div>
-
-      <div class="sobre__pagina--dois--conteudo">
-        <img src="./assets/img/cazumbas.jpg" alt="" class="sobre__pagina--dois--imagem">
-        <div class="container">
+        <img src="./assets/img/sao-pedro.jpg" alt="Foto: Imagem em escultura de São pedro em um barco e com flores de decoração." class="sobre__pagina--dois--imagem">
+      
+    </div>
+    <!-- São João  -->
+    <div class="sobre__pagina--dois--conteudo">
+        <img src="./assets/img/cazumbas.jpg" alt="Pessoas com roupões bordados e máscaras assustadoras. Ao fundo bandeirolas." class="sobre__pagina--dois--imagem">
+        <div>
           <h3 class="titulo__assunto">São João</h3>
           <p class="sobre__pagina--dois--descricao">No Maranhão, o período junino é cheio de sons, cores e sabores. É o tempo de celebrar as manifestações culturais maranhenses, com destaque para o Bumba-Meu-Boi. São Luís vira em um enorme arraial em diferentes pontos, com apresentações culturais, danças típicas e cantores regionais, além das barracas de comida típica.</p>
         </div>
-      </div>
     </div>
     <!-- Fim da sub-sessão Religiosidade       -->
 
     <!-- Nossos Artistas       -->
     <h2 class="sobre__pagina--dois--titulo">Nossos artistas</h2>
-    <div>
+    <!-- Fernando Mendonça  -->
       <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+        <div>
           <h3 class="titulo__assunto">Fernando Mendonça</h3>
           <p class="sobre__pagina--dois--descricao">Natural de Bacurituba, MA, Fernando Mendonça veio muito cedo para São Luís e aqui cresceu respirando arte. Em 1978 integrou o Grupo Laborarte. É um dos nomes mais brilhantes das artes plásticas maranhense. Já realizou grandes exposições entre elas no Salão Nacional de Artes Plásticas (RJ) e na Feira Internacional de Arte Comtemporânea na França.</p>
         </div>
-        <img src="./assets/img/artistas.jpg" alt="" class="sobre__pagina--dois--imagem">
+        <img src="./assets/img/artistas.jpg" alt="Foto: Fernando Mendonça com seu chapéu de fitas coloridas sorri para foto enquanto segura seu tambor." class="sobre__pagina--dois--imagem">
       </div>
-
+      <!-- Alcione -->
       <div class="sobre__pagina--dois--conteudo">
-        <img src="./assets/img/alcione.jpg" alt="" class="sobre__pagina--dois--imagem">
-        <div class="container">
+        <img src="./assets/img/alcione.jpg" alt="Foto: Cantora Alcione sorri para foto. Ela está com cabelos loiros e com batom vermelho." class="sobre__pagina--dois--imagem">
+        <div>
           <h3 class="titulo__assunto">Alcione</h3>
           <p class="sobre__pagina--dois--descricao">Reconhecida como a “Rainha do Samba” é um dos maiores nomes desse ritmo no país. Emplacou seu primeiro sucesso no seu primeiro álbum ficando por 22 semanas em primeiro lugar nas paradas de sucesso. Alcione também é um grande nome no carnaval do Brasil sendo intérprete do enredo de diversas agremiações como Mangueira e Beija-Flor.</p>
         </div>
       </div>
+      <!-- Antônio Vieira -->
       <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+        <div>
           <h3 class="titulo__assunto">Mestre Antônio Vieira</h3>
           <p class="sobre__pagina--dois--descricao">Mestre Vieira como era conhecido não teve oportunidades de terminar seus estudos, mas aos 16 anos já compunha suas letras. Compôs mais de 400 músicas duas delas tido reconhecimento nacional, 'Tem quem queira' e 'Cocada', esta ultima foi indicada ao Prêmio Sharp 98 de Melhor Canção. Faleceu em 2009 por complicações de um AVC.</p>
         </div>
-        <img src="./assets/img/mestre-vieira.jpg" alt="" class="sobre__pagina--dois--imagem">
+        <img src="./assets/img/mestre-vieira.jpg" alt="Foto: Mestre Antônio Vieira tocando um instrumento em uma apresentação com outros músicos." class="sobre__pagina--dois--imagem">
       </div>
-
+      <!-- Rita Benedito -->
       <div class="sobre__pagina--dois--conteudo">
-        <img src="./assets/img/rita-benneditto.jpg" alt="" class="sobre__pagina--dois--imagem">
-        <div class="container">
+        <img src="./assets/img/rita-benneditto.jpg" alt="Foto: Rita Benedito Sorri enquanto olha para o céu. Ela veste branco e usa uma faixa vermelha na cintura. Ao fundo uma parede de rochas." class="sobre__pagina--dois--imagem">
+        <div>
           <h3 class="titulo__assunto">Rita Benneditto</h3>
           <p class="sobre__pagina--dois--descricao">Natural de São Benedito, interior do MA, mudou-se cedo para a capital. Já mosstrava interesse pela música desde muito cedo e nos anos 80 começou a cantar em bares e boates. Ganhou projeção nacional ao gravar duas músicas do Mestre Vieira. Entre seus trabalhos mais famosos estão o álbum Tecnomacumba e 7 Marias, sendo o último o mais recente.</p>
         </div>
       </div>
-    </div>
     <!-- Fim da sub-sessão Artistas       -->
 
     <!-- Nosso Patrimônio       -->
     <h2 class="sobre__pagina--dois--titulo">Patrimônio</h2>
-    <div>
-      <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+    <!-- Centro Histórico slz    -->
+    <div class="sobre__pagina--dois--conteudo">
+        <div>
           <h3 class="titulo__assunto">Centro Histórico de São Luís</h3>
           <p class="sobre__pagina--dois--descricao">O centro histórico de São Lúís, MA é Patrimônio Mundial Cultural e Natural da Unesco. Suas arquitetura , ruas, becos, vielas representam um marco para a humanidade e são únicas. Possui em sua constituição diversos casarões, igrejas, museus, entre outros elementos que constituem seu conjunto arquitetônico.</p>
         </div>
-        <img src="./assets/img/rua-portugal.jpg" alt="" class="sobre__pagina--dois--imagem">
-      </div>
-
-      <div class="sobre__pagina--dois--conteudo">
-        <img src="./assets/img/engenho-pindare.jpg" alt="" class="sobre__pagina--dois--imagem">
-        <div class="container">
+        <img src="./assets/img/rua-portugal.jpg" alt="Foto: Rua Portugal no centro histórico de São Luís. O sol da tarde ilumina as paredes dos casarões colôniais." class="sobre__pagina--dois--imagem">
+    </div>
+    <!-- Engenho central de Pindaré -->
+    <div class="sobre__pagina--dois--conteudo">
+        <img src="./assets/img/engenho-pindare.jpg" alt="Foto: Engenho central de pindaré. Possui uma torre muito alta e tem os tijolos de sua construção visíveis." class="sobre__pagina--dois--imagem">
+        <div>
           <h3 class="titulo__assunto">Engenho Central de Pindaré</h3>
           <p class="sobre__pagina--dois--descricao">O Engenho Central da Pindaré-Mirim, ou Companhia Progresso Agrícola, foi criado  em 1880. Possuía 500 carros de boi, 35 carroças, cerca de 50 casas de madeira, três léguas de terra apta à lavoura e 10 km de via férrea. Hoje, este secular monumento,  é um dos últimos representantes do sistema de engenhos centrais instalados no Brasil durante o Império.</p>
         </div>
-      </div>
-      <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+    </div>
+    <!-- Teatro Arthur Azevedo -->
+    <div class="sobre__pagina--dois--conteudo">
+        <div>
           <h3 class="titulo__assunto">Teatro Arthur Azevedo</h3>
           <p class="sobre__pagina--dois--descricao">É o segundo teatro mais antigo do Brasil. Foi criado em 1815 por iniciativa de dois comerciantes portugueses. A lotação do teatro é de 750 lugares reservados ao público, 6 lugares na tribuna reservados a autoridades, distribuídos em plateia, frisas, camarotes, balcões e galerias. Atualmente oferece cursos de teatro, dança, canto coral e piano através do Núcleo Arte-Educação.</p>
         </div>
-        <img src="./assets/img/teatro-arthur-azevedo.jpg" alt="" class="sobre__pagina--dois--imagem">
-      </div>
-
-      <div class="sobre__pagina--dois--conteudo">
-        <img src="./assets/img/igreja-desterro.jpg" alt="" class="sobre__pagina--dois--imagem">
-        <div class="container">
+        <img src="./assets/img/teatro-arthur-azevedo.jpg" alt="Foto: Teatro arthur Azevedo. Possui uma arquitetura muito bonita com cores cinza e salmão. Ao fundo o céu azul." class="sobre__pagina--dois--imagem">
+    </div>
+    <!-- Igreja de São José do Desterro -->
+    <div class="sobre__pagina--dois--conteudo">
+        <img src="./assets/img/igreja-desterro.jpg" alt="Foto: Igreja na cor Branca e com arquitetura Bizantina marcante. Contém portas e janelas na cor verde. Em frente dela há um poste antigo." class="sobre__pagina--dois--imagem">
+        <div>
           <h3 class="titulo__assunto">Igreja de São José do Desterro</h3>
           <p class="sobre__pagina--dois--descricao">A Igreja de São José do Desterro é considerada a mais antiga de São Luís e a única no Brasil, a ainda ter traços da arquitetura bizantina. Fua construída em 1618 e fica localizada no bairro Desterro, na capital. Um verdadeiro símbolo de muitas histórias e lendas que retratam ainda a fé, a devoção e lutas da comunidade do Desterro e do Maranhão.</p>
         </div>
-      </div>
-      <div class="sobre__pagina--dois--conteudo">
-        <div class="container">
+    </div>
+    <!-- Biblioteca Pública Benedito Leite  -->
+    <div class="sobre__pagina--dois--conteudo">
+        <div>
           <h3 class="titulo__assunto">Biblioteca Pública Benedito Leite</h3>
           <p class="sobre__pagina--dois--descricao">É a segunda Biblioteca mais antiga do País. Com 190 anos de existência a Biblioteca Pública Benedito Leite conta com mais de 140 mil exemplares nacionais e estrangeiros em seu acervo físico e digital. A instituição se destaca pela raridade de seu acervo, referência em acessibilidade, e como disseminadora de cultura em todo o estado.</p>
         </div>
-        <img src="./assets/img/biblioteca.jpg" alt="" class="sobre__pagina--dois--imagem">
-      </div>
+        <img src="./assets/img/biblioteca.jpg" alt="Foto: biblioteca pública Benedito leite. Possui colunas que lembram colunas gregas na entrada e uma escadaria que leva até os interiores do prédio. Ao fundo o céu azul." class="sobre__pagina--dois--imagem">
     </div>
     <!-- Fim da sub-sessão Patrimônio       -->
     </section>
 
     <!-- Seção de agradecimento -->
-    <section class="agradecimento">
+    <section class="agradecimento container">
       <h3 class="agradecimento__titulo">Obrigado por chegar até aqui!</h3>
-      <p class="agradecimento__descricao">Obrigado por chegar até o final desse “Tur” por esse estado incrível que é o Maranhão. Se vcê ficou impressionado com o quão diversificada é a nossa cultura fique sabendo que aqui não consta nem um terço de tudo que esse lugar tem para oferecer. Esse projeto foi criado para divulgar e tornar conhecida a cultura Maranhense e as riquezas culturais que meu estado tem para oferecer! Se quiser me ajudar entre em contato e mande sua sugestão no sessão abaixo. Este projeto é coletivo e qualquer ajuda é bem vinda!</p>
+      <p class="agradecimento__descricao">Obrigado por chegar até o final desse “Tur” por esse estado incrível que é o Maranhão. Se você ficou impressionado com o quão diversificada é a nossa cultura fique sabendo que aqui não consta nem um terço de tudo que esse lugar tem para oferecer. Esse projeto foi criado para divulgar e tornar conhecida a cultura Maranhense e as riquezas culturais que o estado tem para oferecer! Se quiser me ajudar entre em contato e mande sua sugestão no sessão abaixo. Este projeto é coletivo e qualquer ajuda é bem vinda!</p>
     </section>
 
     <!-- Seção Contato -->
@@ -378,6 +386,7 @@
       <li class="rodape__item"><a target="_blank" href="https://www.instagram.com/neilton_seguins/?hl=pt-br" class="rodape__link"><i class="uil uil-instagram-alt"></i></a></li>
     </ul>
   <span class="rodape__span">&copy Desenvolvido por Neilton Seguins</span>
-</footer>
+  </footer>
+  <script src="assets/js/barraNavegacao.js"></script>
 </body>
 </html>

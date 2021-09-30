@@ -10,8 +10,8 @@ and  (max-device-width: 425px)
 and (orientation: portrait){
   .cabecalho{
     display: flex;
-    justify-content: flex-start;
-    height: 70vh;
+    justify-content: space-around;
+    height: 80vh;
   }
 }
 

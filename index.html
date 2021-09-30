@@ -61,11 +61,13 @@
   <link href="./assets/css/rodape/rodape-span.css" rel="stylesheet" />
 </head>
 <body>
+  <!-- Botão pular para o conteúdo principal  -->
+  <a href="#conteudoPrincipal" class="pularNavegacao escondeVisualmente">Pular para conteúdo principal</a>
   <!-- Cabeçalho -->
   <header class="cabecalho" id="cabecalho">
     <div class="cabecalho__conteudo">
       <a href="#"><img class="logo" src="./assets/img/logo.png" alt="Bandeira do Maranhão e nome meu maranhão"></a>
-      <nav class="menu">
+      <nav class="menu" id="nav">
         <ul class="menu__lista">
             <li class="menu__item"><a class="menu__link ativo" href="#cabecalho">Inicio</a></li>
             <li class="menu__item"><a class="menu__link" href="#sobre">Sobre</a></li>
@@ -78,7 +80,7 @@
 
     <div class="conteudo__texto">
       <h1 class="conteudo__texto--titulo">MARANHÃO</h1>
-      <p class="conteudo__texto--descricao">Bem vindo ao Maranhão, terra de gente feliz e hospitaleira.</p>
+      <p class="conteudo__texto--descricao" id="conteudoPrincipal">Bem vindo ao Maranhão, terra de gente feliz e hospitaleira.</p>
       <button class="conteudo__texto--botao"><a href="#sobre">Conhecer o Maranhão</a></button>
     </div>
   </header>
@@ -91,9 +93,9 @@
       <span class="sobre__span">Nossa história</span>
       
       <div class="sobre__conteudo">
-        <img src="./assets/img/lencois.jpg" alt="" class="sobre__imagem">
+        <img src="./assets/img/lencois.jpg" alt="Imagem do pôr do sol visto através das dunas de areia dos lençóis maranhenses" class="sobre__imagem">
         <p class="sobre__descricao">Situado na região Nordeste, o Maranhão possui mais de sete milhões de 
-          habitantes distribuídos em mais de 330 mil km².  Inicialmente sob domínio espanhol definido pelo 
+          habitantes distribuídos em mais de 330 mil quilômetros quadrados.  Inicialmente sob domínio espanhol definido pelo 
           tratado de tordesilhas, foi ocupada por franceses em 1612 e em 1615 retomada por portugueses. 
           Possui 12 bacias hidrográficas, clima tropical e é cheio de belezas naturais.</p>
       </div>
@@ -102,9 +104,8 @@
         <p class="sobre__descricao">Além disso, conta com um povo com uma cultura muito rica, com muitas 
           expressões culturais, uma culinária regional com pratos incríveis e um patrimônio histórico de 
           valor inestimável. Também possui como patrimônio cultural imaterial o Bumba Meu Boi e Tambor de 
-          Crioula e artistas que ganharam o mundo. Convido você a dar um passeio por este Maranhão, só rolar 
-          para baixo! </p>
-        <img src="./assets/img/bumba-meu-boi-1.jpeg" alt="" class="sobre__imagem">
+          Crioula e artistas que ganharam o mundo. Convido você a dar um passeio por este Maranhão</p>
+        <img src="./assets/img/bumba-meu-boi-1.jpeg" alt="Pessoas fantasiadas de personagens do folclore maranhense brincam bumba meu boi" class="sobre__imagem">
       </div>
     </section>
     <!-- Seçao Cultura  -->
@@ -116,54 +117,54 @@
 
       <div class="secao__cultura">
         <div class="cultura">
-          <img alt="Um homem canta enquanto duas coureiras realizam a punga" class="cultura__imagem" src="./assets/img/tambor-de-crioula-1.jpg" />
+          <img alt="Um homem canta enquanto duas coureiras realizam um movimento de tocar seus ventres chamado punga" class="cultura__imagem" src="./assets/img/tambor-de-crioula-1.jpg" />
           <div class="cultura__conteudo">
-              <h4 class="cultura__titulo">Religiosidade</h4>
+              <h3 class="cultura__titulo">Religiosidade</h3>
               <p class="cultura__descricao">Entre as principais festas religiosas do estado se destacam o 
                 São João, a Festa do Divino em Alcântara e a romaria de pescadores no dia de São Pedro.</p>
           </div>
         </div>
         <div class="cultura">
-          <img alt="Imagem de religiosidade" class="cultura__imagem" src="./assets/img/artistas.jpg" />
+          <img alt="Artista plástico maranhense Fernando mendonça segurando um tambor e com chapéu com fitas coloridas" class="cultura__imagem" src="./assets/img/artistas.jpg" />
             <div class="cultura__conteudo">
-                <h4 class="cultura__titulo">Nossos artistas</h4>
+                <h3 class="cultura__titulo">Nossos artistas</h3>
                 <p class="cultura__descricao">Entre os inúmeros artistas maranhenses se destacam Alcione, 
                   Antônio Vieira, Zeca Baleiro, Rita Benneditto, Fernando Mendonça, entre outros. </p>
             </div>
         </div>
         <div class="cultura">
-            <img alt="Imagem de religiosidade" class="cultura__imagem" src="./assets/img/lugares.jpg"/>
+            <img alt="Foto de cachoeira localizada na região da chapada das mesas" class="cultura__imagem" src="./assets/img/lugares.jpg"/>
             <div class="cultura__conteudo">
-                <h4 class="cultura__titulo">Lugares</h4>
+                <h3 class="cultura__titulo">Lugares</h3>
                 <p class="cultura__descricao">Entre os lugares incríveis para visitar se destacam a 
                   Chapada das Mesas, os Lençois Maranhenses, Carolina e Riachão e os rios da cidade de Morros.</p>
             </div>
         </div>
         <div class="cultura">
-            <img alt="Imagem de religiosidade" class="cultura__imagem" src="./assets/img/culinaria.jpg" />
+            <img alt="Arroz de cuxá, prato típico maranhense que leva camarões e folha da vinagreira" class="cultura__imagem" src="./assets/img/culinaria.jpg" />
             <div class="cultura__conteudo">
-                <h4 class="cultura__titulo">Culinária</h4>
+                <h3 class="cultura__titulo">Culinária</h3>
                 <p class="cultura__descricao">Na culinária os pratos típicos são muito diversificados e  
                   aproveitam bem as riquezas de nosso litoral, como a caranguejada, arroz de cuxá e a pescada escabeche.</p>
             </div>
         </div>
         <div class="cultura">
-            <img alt="Imagem de religiosidade" class="cultura__imagem" src="./assets/img/patrimonio.jpg" />
+            <img alt="Casarão histórico com muitas portas e janelas no estilo colonial e azulejos portugueses" class="cultura__imagem" src="./assets/img/patrimonio.jpg" />
             <div class="cultura__conteudo">
-                <h4 class="cultura__titulo">Patrimônio</h4>
+                <h3 class="cultura__titulo">Patrimônio</h3>
                 <p class="cultura__descricao">Possuímos um patrimônio histórico de valor incalculável, com casarões e igrejas de vários períodos da história do estado, com influências de vários movimentos artísticos.</p>          
             </div>
         </div>
         <div class="cultura">
-            <img alt="Imagem de religiosidade" class="cultura__imagem" src="./assets/img/expressoes-artisticas.jpg" />
+            <img alt="Tambores sendo afinados aquecendo ao redor de uma fogueira" class="cultura__imagem" src="./assets/img/expressoes-artisticas.jpg" />
             <div class="cultura__conteudo">
-                <h4 class="cultura__titulo">Expressões artísticas</h4>
+                <h3 class="cultura__titulo">Expressões artísticas</h3>
                 <p class="cultura__descricao">As principais manifestações artísticas de nosso estado são o Bumba Meu Boi e o Tambor de crioula,e durante todo o ano podemos acompanhar manifestações.</p>
             </div>
         </div>
       </div>
       <div class="cultura__botao">
-        <button class="cultura__botao--botao"><a href="galeria.html">Saber Mais</a></button>
+        <button class="cultura__botao--botao"><a href="galeria.html">Conhecer mais da cultura</a></button>
       </div>
     </section>
     <!-- Seçao Galeria -->
@@ -174,16 +175,16 @@
       </div>
 
       <div class="galeria__imagens">
-        <div class="galeria__imagem imagem-1"></div>
-        <div class="galeria__imagem imagem-2"></div>
-        <div class="galeria__imagem imagem-3"></div>
-        <div class="galeria__imagem imagem-4"></div>
-        <div class="galeria__imagem imagem-5"></div>
-        <div class="galeria__imagem imagem-6"></div>
+        <div class="galeria__imagem imagem-1" aria-label="Foto 1: Homens se reunem em volta de fogueira para afinar seus tambores em frente a casa do tambor de crioula."></div>
+        <div class="galeria__imagem imagem-2" aria-label="Foto 2: Caranguejada, prato típico do maranhão. Dois caranguejos cozidos no leite de côco e coentro para decorar."></div>
+        <div class="galeria__imagem imagem-3" aria-label="Foto 3: Pessoas banhando em rio de águas verdes e limpas. Floresta nativa e cabanas de palha em volta."></div>
+        <div class="galeria__imagem imagem-4" aria-label="Foto 4: Fenda histórica esculpida pelo tempo na rocha, conhecido como portal da chapada das mesas. Por entre a fenda se observa montanha ao fundo."></div>
+        <div class="galeria__imagem imagem-5" aria-label="Foto 5: Grande escadaria de pedras que leva a rua do giz no centro histórico de São Luís. Em torno casarões coloniais."></div>
+        <div class="galeria__imagem imagem-6" aria-label="Foto 6: Homem fantasiado de boi em brincadeira de bumba meu boi. Bandeirolas penduradas na Rua portugal no centro histórico de São Luís e pessoas fantasiadas ao fundo."></div>
       </div>
 
       <div class="galeria_botao">
-        <button class="galeria__botao--botao"><a href="galeria.html">Ver mais</a></button>
+        <button class="galeria__botao--botao"><a href="galeria.html">Mais fotos</a></button>
       </div>
     </section>
     <!-- Seção Contato -->
@@ -202,7 +203,7 @@
               <input type="email" id="email" class="contato__input" required placeholder="seunome@dominio.com">
             </div>
             <div class="contato__mensagem">
-              <textarea id="mensagem" cols="70" rows="10" class="contato__textarea" required placeholder="Escreva-nos"></textarea>
+              <textarea id="mensagem" cols="70" rows="10" class="contato__textarea" required placeholder="Escreva-nos uma mensagem aqui!"></textarea>
               <input type="submit" value="Enviar" class="contato__submit">
             </div>
         </form>
@@ -213,12 +214,14 @@
   <!-- Footer -->
   <footer class="rodape" id="rodape">
       <ul class="rodape__lista">
-        <li class="rodape__item"><a target="_blank" href="https://github.com/NeiltonSeguins" class="rodape__link"><i class="uil uil-github-alt"></i></a></li>
-        <li class="rodape__item"><a target="_blank" href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" class="rodape__link"><i class="uil uil-linkedin-alt"></i></a></li>
-        <li class="rodape__item"><a target="_blank" href="https://twitter.com/SeguinsNeilton" class="rodape__link"><i class="uil uil-twitter-alt"></i></a></li>
-        <li class="rodape__item"><a target="_blank" href="https://www.instagram.com/neilton_seguins/?hl=pt-br" class="rodape__link"><i class="uil uil-instagram-alt"></i></a></li>
+        <li class="rodape__item"><a target="_blank" href="https://github.com/NeiltonSeguins" class="rodape__link" aria-label="Ir para perfil do Github"><i class="uil uil-github-alt"></i></a></li>
+        <li class="rodape__item"><a target="_blank" href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" class="rodape__link" aria-label="Ir para perfil do Linkedin"><i class="uil uil-linkedin-alt"></i></a></li>
+        <li class="rodape__item"><a target="_blank" href="https://twitter.com/SeguinsNeilton" class="rodape__link" aria-label="Ir para perfil do twitter"><i class="uil uil-twitter-alt"></i></a></li>
+        <li class="rodape__item"><a target="_blank" href="https://www.instagram.com/ncode.io/?hl=pt-br" class="rodape__link" aria-label="Ir para perfil do Instagram"><i class="uil uil-instagram-alt"></i></a></li>
       </ul>
     <span class="rodape__span">&copy Desenvolvido por Neilton Seguins</span>
   </footer>
+
+  <script src="assets/js/barraNavegacao.js"></script>
 </body>
 </html>

@@ -9,8 +9,8 @@
 and  (max-device-width: 425px) 
 and (orientation: portrait) {
   .sobre__imagem{
-    max-width: 100vh;
-    max-height: 200px;
+    max-width: 90vw;
+    max-height: 300px;
     width: 100vw;
     margin: 1.25rem 0;
   }

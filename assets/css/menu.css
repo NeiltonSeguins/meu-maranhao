@@ -1,6 +1,23 @@
-@media  only screen and (min-device-width: 320px) and  (max-device-width: 425px) {
+.menu{
+  position: relative;
+  width: auto;
+}
+
+.bar{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(30px / 5);
+  height: 2px;
+  background: #fdfdfd;
+  transition: .4s;
+}
+
+@media  only screen and (min-device-width: 320px) 
+and  (max-device-width: 425px) 
+and (orientation: portrait) {
   .menu{
-    display: none;
+    display: inline-block;
   }
 }
 

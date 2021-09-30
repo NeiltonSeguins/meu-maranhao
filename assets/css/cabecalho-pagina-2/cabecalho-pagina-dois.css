@@ -6,11 +6,13 @@
   width: auto;
 }
 
-@media  screen and (min-width: 0) {
+@media  only screen and (min-device-width: 320px) 
+and  (max-device-width: 425px) 
+and (orientation: portrait){
   .cabecalho__pagina--dois{
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: 80vh;
   }
 }
 

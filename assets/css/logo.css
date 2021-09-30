@@ -5,7 +5,9 @@
   height: auto;
 }
 
-@media  only screen and (min-device-width: 320px) and  (max-device-width: 425px) {
+@media  only screen and (min-device-width: 320px) 
+and  (max-device-width: 425px) 
+and (orientation: portrait) {
   .logo{
     display: none;
     max-width: 100px;

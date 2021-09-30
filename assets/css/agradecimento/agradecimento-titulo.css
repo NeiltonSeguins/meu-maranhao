@@ -1,4 +1,12 @@
 .agradecimento__titulo{
-  font-size: 39px;
   margin-bottom: 30px;
+}
+
+@media  only screen and (min-device-width: 320px) 
+and  (max-device-width: 425px) 
+and (orientation: portrait) {
+  .agradecimento__titulo{
+    text-align: center;
+    font-size: 1.85rem;
+  }
 }

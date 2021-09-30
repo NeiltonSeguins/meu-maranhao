@@ -1,7 +1,22 @@
 .menu__item{
   list-style: none;
-  font-size: 20px;
+  font-size: 1rem;
 }
 .menu__item:last-child .menu__link{
   margin-right: 0;
+}
+
+.ativo{
+  background-color: #a16;
+  color: #fdfdfd;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media  only screen and (min-device-width: 320px) 
+and  (max-device-width: 425px) 
+and (orientation: portrait) {
+  .menu__item{
+    font-size: 0.9rem;
+  }
 }
