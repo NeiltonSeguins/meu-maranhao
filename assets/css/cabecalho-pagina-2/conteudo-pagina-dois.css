@@ -27,3 +27,9 @@ and (orientation: portrait) {
     text-align: center;
   }
 }
+
+@media  only screen and (min-width: 1024px) {
+  .conteudo__pagina--dois{
+    margin-top: 150px;
+  }
+}

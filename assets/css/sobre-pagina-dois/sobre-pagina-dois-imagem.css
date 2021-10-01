@@ -25,3 +25,13 @@ and (orientation: portrait) {
     border-radius: 8px;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .sobre__pagina--dois--imagem{
+    max-width: 45vw;
+    max-height: 60vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 0;
+  }
+}

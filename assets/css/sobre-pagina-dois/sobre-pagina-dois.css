@@ -1,5 +1,11 @@
 .sobre__pagina--dois{
-  margin: 30px auto;
+  margin: 30px 30px;
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (min-device-width: 1024px){
+  .sobre__pagina--dois{
+    padding: 0 50px;
+  }
 }

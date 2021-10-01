@@ -13,3 +13,9 @@ and (orientation: portrait) {
     text-align: start;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .agradecimento{
+    max-width: 80vw;
+  }
+}
