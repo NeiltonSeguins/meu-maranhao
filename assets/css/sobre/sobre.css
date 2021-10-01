@@ -1,6 +1,10 @@
 .sobre{
-  padding: 1.25rem;
   display: flex;
   flex-direction: column;
 }
 
+@media only screen and (min-device-width: 1024px){
+  .sobre{
+    padding: 30px 0;
+  }
+}

@@ -24,5 +24,7 @@ and (orientation: portrait) {
     width: auto;
     justify-content: space-evenly;
     display: flex;
+    padding-right: 3%;
+    padding-left: 3%;
   }
 }

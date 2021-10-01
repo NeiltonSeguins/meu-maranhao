@@ -24,3 +24,14 @@ and (orientation: portrait) {
     height: auto;
   }
 }
+
+
+@media  only screen and (min-device-width: 1024px) {
+  .logo{
+    display: inline-block;
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+  }
+}

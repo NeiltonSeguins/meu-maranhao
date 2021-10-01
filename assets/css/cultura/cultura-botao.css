@@ -33,3 +33,13 @@
     font-size: 1.1rem;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .cultura__botao--botao{
+    width: 30vw;
+  }    
+
+  .cultura__botao--botao a{
+    font-size: 1.2rem;
+  }
+}

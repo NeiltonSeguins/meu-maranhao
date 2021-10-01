@@ -45,3 +45,11 @@ and (orientation: portrait) {
     border-radius: 5px;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .galeria__imagem{
+    max-height: 50vh;
+    margin: 1rem;
+    max-width: 25%;
+  }    
+}

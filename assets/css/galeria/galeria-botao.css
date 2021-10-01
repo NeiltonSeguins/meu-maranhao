@@ -4,6 +4,29 @@
   background: #ce1631;
 }
 
+@media  only screen and (min-device-width: 320px) 
+and  (max-device-width: 425px) 
+and (orientation: portrait) {
+  .galeria__botao--botao{
+    display: inline-block;
+    background: #A61127;
+    width: 80vw;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom:3rem;
+  }
+  .galeria__botao--botao a{
+    text-decoration: none;
+    background-color: transparent ;
+    color: #fdfdfd;
+    transition: .2s all;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 600;
+    margin: 0.8rem;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .galeria__botao--botao{
@@ -24,6 +47,16 @@
     font-size: 1.1rem;
     font-weight: 600;
     margin: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .galeria__botao--botao{
+    width: 30vw;
+  }    
+
+  .galeria__botao--botao a{
+    font-size: 1.357rem;
   }
 }
 

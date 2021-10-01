@@ -17,3 +17,9 @@
     margin-top: 0;
   }
 }
+
+@media  only screen and (min-width: 1024px) {
+  .conteudo__texto--titulo{
+    font-size: 6.75rem;
+  }
+}

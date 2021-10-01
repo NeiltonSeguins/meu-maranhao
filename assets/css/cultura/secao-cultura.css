@@ -23,3 +23,10 @@ and (orientation: portrait) {
     margin-bottom: 30px;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .secao__cultura{
+    justify-content: space-around;
+    margin: 0 20px;
+  }
+}
